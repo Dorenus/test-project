@@ -9,11 +9,13 @@
     display: flex;
     margin: 40px 272px 0 125px;
 }
-.col1-menu {
+.header {
+}
+.logo {
     width: 45%;
     font-size: 1.5rem;
 }
-.col2-menu {
+.menu {
     width: 45%;
     font-size: 1.25rem;
 }
@@ -32,6 +34,14 @@
     opacity: 75%;
     border: 2px solid blue;
 }
+.main-title {
+    display: flex;
+    flex-direction: column;
+}
+.button-row {
+    display: flex;
+}
+
 .hero .btn,
 .btn-white {
     margin: auto 0;
@@ -80,18 +90,60 @@
 }
 
 .image {
-    object-fit: cover;
+    /* object-fit: cover; */
+    align-self: center;
+}
+.faq {
+    position: relative;
+    margin-top: 60px;
 }
 
-.row1 {
+.faq h1 {
+    position: absolute;
+    left: 593px;
+}
+.faq-title {
     width: 90%;
     text-align: center;
     border: 2px solid yellowgreen;
 }
 .column-block {
     display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 70px;
 }
 .column {
-    width: 40%;
+    width: 25%;
     border: 2px solid green;
+    text-align: center;
+}
+
+.column > h3 {
+    margin-top: 60px;
+}
+
+.faq-btn-row {
+    display: flex;
+    border: 2px solid violet;
+    justify-content: center;
+    margin-top: 120px;
+    gap: 10px;
+}
+.btn-faq {
+    width: 303px;
+    height: 63px;
+    background-color: #414141;
+    font-size: 1.5rem;
+    color: white;
+    border-radius: 11px;
+}
+
+.btn-white-faq {
+    width: 232px;
+    height: 63px;
+    background-color: white;
+    font-size: 1.5rem;
+    color: black;
+    border-radius: 11px;
 }
