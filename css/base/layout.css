@@ -4,25 +4,26 @@
     align-items: center;
 }
 
-.row {
+.header-row {
     border: 2px solid red;
     display: flex;
     margin: 40px 272px 0 125px;
 }
-.header {
-}
+
 .logo {
-    width: 45%;
+    width: 60%;
     font-size: 1.5rem;
 }
 .menu {
-    width: 45%;
+    width: 40%;
     font-size: 1.25rem;
+    /* justify-content: flex-end; */
 }
 .hero {
     min-height: 100vh;
     margin: 36px 83px 108px 83px;
     display: flex;
+    position: relative;
     /* width: 1346px;
     height: 665px; */
     padding-bottom: 30px;
@@ -37,9 +38,15 @@
 .main-title {
     display: flex;
     flex-direction: column;
+    margin: auto;
+    text-align: center;
+    font-size: 1.1rem;
 }
 .button-row {
     display: flex;
+    position: absolute;
+    top: 440px;
+    left: 160px;
 }
 
 .hero .btn,
@@ -83,6 +90,8 @@
 
 .col-block {
     display: flex;
+    gap: 20px;
+    justify-content: center;
 }
 .col-kvmr {
     width: 30%;
@@ -91,7 +100,8 @@
 
 .image {
     /* object-fit: cover; */
-    align-self: center;
+    max-width: 100%;
+    max-height: 100%;
 }
 .faq {
     position: relative;
@@ -100,7 +110,7 @@
 
 .faq h1 {
     position: absolute;
-    left: 593px;
+    left: 470px;
 }
 .faq-title {
     width: 90%;
