@@ -1,9 +1,7 @@
 .container {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
-    gap: 40px;
-    padding: 60px 0;
 }
 
 .row {
@@ -13,23 +11,29 @@
 }
 .col1-menu {
     width: 45%;
+    font-size: 1.5rem;
 }
 .col2-menu {
     width: 45%;
+    font-size: 1.25rem;
 }
 .hero {
     min-height: 100vh;
     margin: 36px 83px 108px 83px;
+    display: flex;
     /* width: 1346px;
     height: 665px; */
     padding-bottom: 30px;
     background-image: url(/assets/img/hero.png);
     background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
+    /* background-position: center; */
+    /* background-attachment: fixed; */
     border-radius: 41px;
     opacity: 75%;
     border: 2px solid blue;
+}
+.hero .btn {
+    align-items: flex-end;
 }
 
 .btn {
@@ -46,4 +50,23 @@
     background-color: white;
     font-size: 1.5rem;
     color: black;
+}
+
+.link {
+    color: black;
+}
+
+.kmvr {
+    background-color: var(--secondary-color);
+    display: flex;
+    flex-direction: row;
+}
+
+.col-kvmr {
+    width: 30%;
+    border: 2px solid orangered;
+}
+
+.image {
+    object-fit: cover;
 }
