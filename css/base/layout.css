@@ -1,0 +1,49 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    padding: 60px 0;
+}
+
+.row {
+    border: 2px solid red;
+    display: flex;
+    margin: 40px 272px 0 125px;
+}
+.col1-menu {
+    width: 45%;
+}
+.col2-menu {
+    width: 45%;
+}
+.hero {
+    min-height: 100vh;
+    margin: 36px 83px 108px 83px;
+    /* width: 1346px;
+    height: 665px; */
+    padding-bottom: 30px;
+    background-image: url(/assets/img/hero.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    border-radius: 41px;
+    opacity: 75%;
+    border: 2px solid blue;
+}
+
+.btn {
+    width: 214px;
+    height: 60px;
+    background-color: black;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.btn-white {
+    width: 379px;
+    height: 60px;
+    background-color: white;
+    font-size: 1.5rem;
+    color: black;
+}
