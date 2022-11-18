@@ -1,0 +1,47 @@
+.button-row {
+    display: flex;
+    position: absolute;
+    top: 440px;
+    left: 250px;
+}
+
+.btn {
+    width: 214px;
+    height: 60px;
+    background-color: black;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.btn-white {
+    width: 379px;
+    height: 60px;
+    background-color: white;
+    font-size: 1.5rem;
+    color: black;
+}
+
+.faq-btn-row {
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+    gap: 10px;
+}
+
+.btn-faq {
+    width: 303px;
+    height: 63px;
+    background-color: #414141;
+    font-size: 1.5rem;
+    color: white;
+    border-radius: 11px;
+}
+
+.btn-white-faq {
+    width: 232px;
+    height: 63px;
+    background-color: white;
+    font-size: 1.5rem;
+    color: black;
+    border-radius: 11px;
+}

@@ -5,7 +5,6 @@
 }
 
 .header-row {
-    border: 2px solid red;
     display: flex;
     margin: 40px 272px 0 125px;
 }
@@ -17,23 +16,17 @@
 .menu {
     width: 40%;
     font-size: 1.25rem;
-    /* justify-content: flex-end; */
 }
 .hero {
     min-height: 100vh;
     margin: 36px 83px 108px 83px;
     display: flex;
     position: relative;
-    /* width: 1346px;
-    height: 665px; */
     padding-bottom: 30px;
     background-image: url(/assets/img/hero.png);
     background-size: cover;
-    /* background-position: center; */
-    /* background-attachment: fixed; */
+
     border-radius: 41px;
-    opacity: 75%;
-    border: 2px solid blue;
 }
 .main-title {
     display: flex;
@@ -42,36 +35,9 @@
     text-align: center;
     font-size: 1.1rem;
 }
-.button-row {
-    display: flex;
-    position: absolute;
-    top: 440px;
-    left: 160px;
-}
-
-.hero .btn,
-.btn-white {
-    margin: auto 0;
-}
 
 .hero > h1 {
     margin: auto 0;
-}
-
-.btn {
-    width: 214px;
-    height: 60px;
-    background-color: black;
-    font-size: 1.5rem;
-    color: white;
-}
-
-.btn-white {
-    width: 379px;
-    height: 60px;
-    background-color: white;
-    font-size: 1.5rem;
-    color: black;
 }
 
 .link {
@@ -85,7 +51,7 @@
 }
 .kvmr > h1 {
     text-align: center;
-    border: 2px solid orange;
+    margin-bottom: 60px;
 }
 
 .col-block {
@@ -95,27 +61,25 @@
 }
 .col-kvmr {
     width: 30%;
-    border: 2px solid orangered;
 }
 
 .image {
-    /* object-fit: cover; */
     max-width: 100%;
     max-height: 100%;
+    margin-bottom: 60px;
 }
 .faq {
     position: relative;
-    margin-top: 60px;
+    margin-top: 80px;
 }
 
 .faq h1 {
     position: absolute;
-    left: 470px;
+    left: 580px;
 }
 .faq-title {
     width: 90%;
     text-align: center;
-    border: 2px solid yellowgreen;
 }
 .column-block {
     display: flex;
@@ -125,35 +89,9 @@
 }
 .column {
     width: 25%;
-    border: 2px solid green;
     text-align: center;
 }
 
 .column > h3 {
     margin-top: 60px;
-}
-
-.faq-btn-row {
-    display: flex;
-    border: 2px solid violet;
-    justify-content: center;
-    margin-top: 120px;
-    gap: 10px;
-}
-.btn-faq {
-    width: 303px;
-    height: 63px;
-    background-color: #414141;
-    font-size: 1.5rem;
-    color: white;
-    border-radius: 11px;
-}
-
-.btn-white-faq {
-    width: 232px;
-    height: 63px;
-    background-color: white;
-    font-size: 1.5rem;
-    color: black;
-    border-radius: 11px;
 }
