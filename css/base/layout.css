@@ -32,8 +32,13 @@
     opacity: 75%;
     border: 2px solid blue;
 }
-.hero .btn {
-    align-items: flex-end;
+.hero .btn,
+.btn-white {
+    margin: auto 0;
+}
+
+.hero > h1 {
+    margin: auto 0;
 }
 
 .btn {
@@ -61,7 +66,14 @@
     display: flex;
     flex-direction: row;
 }
+.kvmr > h1 {
+    text-align: center;
+    border: 2px solid orange;
+}
 
+.col-block {
+    display: flex;
+}
 .col-kvmr {
     width: 30%;
     border: 2px solid orangered;
@@ -69,4 +81,17 @@
 
 .image {
     object-fit: cover;
+}
+
+.row1 {
+    width: 90%;
+    text-align: center;
+    border: 2px solid yellowgreen;
+}
+.column-block {
+    display: flex;
+}
+.column {
+    width: 40%;
+    border: 2px solid green;
 }
